@@ -2,6 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/Piyush1638/clade-assignment.git
+```
+
+2. Run `npm install` to install dependencies
+
+
+
 First, run the development server:
 
 ```bash
