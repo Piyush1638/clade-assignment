@@ -10,7 +10,7 @@ const PageButton: React.FC<PageButtonProps> = ({
   onButtonClicked,
 }) => (
   <button
-    className={`text-[#888888] h-[4.188rem] ${
+    className={`text-[#888888] h-[4.188rem] text-xl ${
       buttonClicked === text
         ? "border-b-[3px] border-[#DC4A2D] text-[#DC4A2D] font-semibold"
         : "font-medium"

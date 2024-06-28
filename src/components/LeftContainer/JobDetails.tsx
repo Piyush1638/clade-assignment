@@ -47,8 +47,8 @@ interface JobDetailSectionProps {
   
   const JobDetailSection: React.FC<JobDetailSectionProps> = ({ title, items, isNumbered = false }) => {
     return (
-      <div className="mb-3">
-        <h3 className="font-semibold text-[#6E6D6D] text-sm">{title}</h3>
+      <div className="font-medium">
+        <h3 className={`font-semibold text-[#6E6D6D] text-sm ${title === "About the job" && "mb-3"}`}>{title}</h3>
         {isNumbered ? (
           <ol className="list-decimal pl-6">
             {items.map((item, index) => (

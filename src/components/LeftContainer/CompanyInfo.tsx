@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CompanyInfo = () => {
   return (
-    <div className="flex flex-col items-start gap-10 w-full py-10 px-6 border border-gray-200 rounded-lg shadow-md bg-white md:ps-20">
+    <div className="flex flex-col items-start gap-10 w-full py-10 px-6 border border-b-0 border-gray-200 rounded-lg shadow-md bg-white md:ps-20">
       {/* Company Logo and Name */}
       <div className="flex items-center mb-4 lg:mb-0 lg:mr-6">
         <Image

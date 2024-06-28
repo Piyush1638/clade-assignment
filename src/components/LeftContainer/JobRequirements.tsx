@@ -62,8 +62,8 @@ const KeyValue: React.FC<KeyValueProps> = ({
 }) => {
   return (
     <div className="flex flex-col">
-      <span className="text-gray-500 text-xs">{label}</span>
-      <span className={`text-sm ${isBold ? "font-semibold" : ""}`}>
+      <span className="text-gray-500 font-medium text-sm">{label}</span>
+      <span className={`${isBold ? "font-semibold" : ""}`}>
         {value}
       </span>
     </div>
